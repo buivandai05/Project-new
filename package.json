@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/buivandai05/Project-new/issues"
   },
-  "homepage": "https://github.com/buivandai05/Project-new#readme"
+  "homepage": "https://github.com/buivandai05/Project-new#readme",
+  "dependencies": {
+    "express": "5.0.1"
+  }
 }
