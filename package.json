@@ -1,0 +1,22 @@
+{
+  "name": "project-one",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buivandai05/Project-new.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "buivandai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buivandai05/Project-new/issues"
+  },
+  "homepage": "https://github.com/buivandai05/Project-new#readme"
+}
