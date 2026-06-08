@@ -1,0 +1,5 @@
+export const ACCOUNT_TYPES ={
+    SYSTEM:"SYSTEM",
+    GOOGLE:"GOOGLE",
+    GITHUB:"GITHUB"
+}

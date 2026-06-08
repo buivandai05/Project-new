@@ -2,6 +2,7 @@ import express = require("express");
 import 'dotenv/config';
 import webRoutes from "./routes/web";
 import path = require("path");
+import initDatabase from "config/seed";
 
 const app = express();
 
@@ -20,6 +21,10 @@ app.use(express.static('public'));
 //     res.render("Home"); 
 // });
 webRoutes(app); 
+
+// seeding database
+initDatabase();
+
 // 3. Khởi động Server
 app.listen(PORT, () => {
     console.log(`🚀 Server đang chạy tại 123 http://localhost:${PORT}`);
